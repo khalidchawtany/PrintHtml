@@ -1,8 +1,8 @@
-Some of these steps could be unnessasory. However, this worked and I don't care :)
+Some of these steps could be unnecessary. However, this worked and I don't care :)
 
 Install these:
 * [Win32OpenSSL-1_0_2r.exe](https://slproweb.com/download/Win32OpenSSL-1_0_2r.exe) 				=>	 C:\OpenSSL-Win32
-* [mingw-w32-bin_i686-mingw_20111031_sezero](https://master.dl.sourceforge.net/project/mingw-w64/Toolchains%20targetting%20Win64/Personal%20Builds/sezero_4.4_20111031/mingw-w64-bin_i686-mingw_20111031_sezero.zip)
+* [mingw-w32-bin_i686-mingw_20111031_sezero](https://master.dl.sourceforge.net/project/mingw-w64/Toolchains%20targetting%20Win64/Personal%20Builds/sezero_4.4_20111031/mingw-w64-bin_i686-mingw_20111031_sezero.zip)  	=>   C:\mingw32.4.4 (colud be C:\mingw32, but I have other versions)
 * [qt-win-opensource-4.7.4-mingw.exe](http://mirrors-wan.geekpie.club/qtproject/archive/qt/4.7/qt-win-opensource-4.7.4-mingw.exe)  	=>   c:\QT\4.7.4\
 * qt-creator-opensource-windows-x86_64-4.8.1.exe (optional)
 

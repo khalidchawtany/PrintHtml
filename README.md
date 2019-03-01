@@ -51,7 +51,7 @@ Theoretically the code is 100% portable so you could build it for Mac or Linux, 
 Windows since that is what I needed it for :)
 
 # Build Env Setup
-[Env setup](https://github.com/khalidchawtany/PrintHtml/blob/master/Build.md) for qt 4.7.4 and mingw gcc 4.4 is.
+ Env setup for qt 4.7.4 and mingw gcc 4.4 is located [here](https://github.com/khalidchawtany/PrintHtml/blob/master/Build.md).
 
 # Pre-built binaries
 
