@@ -46,8 +46,12 @@ for this project. Hence for simplicity I decided to stick to using Qt 4.8 and as
 to compile and link with Qt 4.8.6 using the Qt Creator that came with the Qt 5.7.1 release by installing
 Qt 4.8.6 alongside it. The build in the deploy directory is built using MingW 5.3 as a 32-bit x86 application.
 
+
 Theoretically the code is 100% portable so you could build it for Mac or Linux, but I have only done it on
 Windows since that is what I needed it for :)
+
+# Build Env Setup
+[Env setup](https://github.com/khalidchawtany/PrintHtml/blob/master/Build.md) for qt 4.7.4 and mingw gcc 4.4 is.
 
 # Pre-built binaries
 
