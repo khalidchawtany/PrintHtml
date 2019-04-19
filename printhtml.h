@@ -28,6 +28,9 @@
 
 #include <QObject>
 #include <QCoreApplication>
+#include <QWebSettings>
+#include <QPrinter>
+#include <QMessageBox>
 
 class PrintHtml : public QObject
 {
@@ -57,6 +60,7 @@ private:
     QStringList     urls;       // List of url to print
     QPrinter        *printer;   // Printer object that we print to
     QWebPage        *webPage;   // QWebPage class for printing
+    QWebSettings    *webSettings;   // WebSettings class for web settings
     QString         url;
     QStringList     printed;
 };

@@ -25,6 +25,9 @@
 
 #include "printhtml.h"
 #include "globals.h"
+#include <QApplication>
+#include <QSslCertificate>
+#include <QSslSocket>
 
 /*
  * Main program entry point

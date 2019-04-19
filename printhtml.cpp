@@ -25,6 +25,9 @@
 
 #include "printhtml.h"
 #include <QDebug>
+#include <QtWebKit/QtWebKit>
+#include <QWebPage>
+#include <QWebFrame>
 
 /*
  * Constructor for the HTML printing class
@@ -59,6 +62,9 @@ PrintHtml::PrintHtml(bool testMode, QStringList urls, QString selectedPrinter, d
     // Create our web page
     webPage = new QWebPage();
 
+
+    webSettings = webPage->settings();
+    webSettings->setFontFamily(QWebSettings::StandardFont, "Tahoma");
     // Save the URL
     this->urls = urls;
 
